@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://licode.readthedocs.io/en/stable/from_source/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="http://licode.readthedocs.org/from_source/">
+        <link rel="shortcut icon" href="https://licode.readthedocs.io/en/stable/img/favicon.ico">
+
+	<title>From Source - Documentation</title>
+
+        <link href="./From Source - Documentation_files/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="./From Source - Documentation_files/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="./From Source - Documentation_files/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="./From Source - Documentation_files/highlight.css">
+        <link href="./From Source - Documentation_files/style.css" rel="stylesheet">
+        <link href="./From Source - Documentation_files/architecture.css" rel="stylesheet">
+        <link href="./From Source - Documentation_files/badge_only.css" rel="stylesheet">
+        <link href="./From Source - Documentation_files/readthedocs-doc-embed.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="search" src="./From Source - Documentation_files/search.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../mkdocs/js/mustache.min.js" src="./From Source - Documentation_files/mustache.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../mkdocs/js/lunr-0.5.7.min.js" src="./From Source - Documentation_files/lunr-0.5.7.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="./From Source - Documentation_files/text.js"></script></head>
+
+    <body style="">
+
+        <a id="github_button" href="https://github.com/ging/licode" class="visible-desktop"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1031" src="./From Source - Documentation_files/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+             
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://github.com/ging/licode" class="github-logo hidden-desktop"><img src="./From Source - Documentation_files/github-logo.png"></a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="http://lynckia.com/licode/index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="http://lynckia.com/licode/blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="http://lynckia.com/licode/community.html">Community</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="https://licode.readthedocs.io/en/stable/from_source/#" class="dropdown-toggle" data-toggle="dropdown">API Documentation<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      
+  
+    
+<li>
+    <a href="https://licode.readthedocs.io/en/stable/">Architecture</a>
+</li>
+
+  
+    
+<li>
+    <a href="https://licode.readthedocs.io/en/stable/client_api/">Client API</a>
+</li>
+
+  
+    
+<li>
+    <a href="https://licode.readthedocs.io/en/stable/server_api/">Server API</a>
+</li>
+
+  
+
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="https://licode.readthedocs.io/en/stable/from_source/#" class="dropdown-toggle" data-toggle="dropdown">Installation<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      
+  
+    
+<li>
+    <a href="https://licode.readthedocs.io/en/stable/docker/">Docker</a>
+</li>
+
+  
+    
+<li class="active">
+    <a href="https://licode.readthedocs.io/en/stable/from_source/">From Source</a>
+</li>
+
+  
+
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="https://chotis2.dit.upm.es/">Try it!</a>
+                  </li>
+                  <li>
+                    <a href="http://lynckia.com/licode/contribute.html">Contribute</a>
+                  </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+            <div class="sec_title">
+                
+                    <h1>From Source</h1>
+                
+                <p>Licode documentation</p>
+            </div>
+            <div class="col-md-3"><div class="bs-sidebar hidden-print well affix-top" role="complementary">
+    <ul class="nav bs-sidenav">
+    <li class="search_nav">
+        <a href="https://licode.readthedocs.io/en/stable/from_source/#" data-toggle="modal" data-target="#mkdocs_search_modal">
+            <i class="fa fa-search"></i> Search
+        </a>
+    </li>
+          
+    <li class="main"><a href="https://licode.readthedocs.io/en/stable/docker/">Docker</a></li>
+    <li class="main"><a href="https://licode.readthedocs.io/en/stable/from_source/">From Source</a></li>
+        <li class="active"><a href="https://licode.readthedocs.io/en/stable/from_source/#overview">Overview</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#prerequisites">Prerequisites</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#clone-licode">Clone Licode</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#install-dependencies">Install dependencies</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#install-licode">Install Licode</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#install-basicexample">Install basicExample</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#start-licode">Start Licode!</a></li>
+        <li class=""><a href="https://licode.readthedocs.io/en/stable/from_source/#whats-next">What's next?</a></li>
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="overview">Overview</h1>
+<p>This guide will guide you through the basics of getting a Licode instance with a basic videoconferencing application up and running.</p>
+<h1 id="prerequisites">Prerequisites</h1>
+<p>We <strong>only</strong> officially support <strong>Ubuntu 14.04</strong> for production environments.</p>
+<p>We do maintain compatibility with <strong>Mac OS X</strong> for <strong>development and testing purposes</strong>.</p>
+<table class="table table-striped table-hover">
+<thead>
+<tr>
+<th>Ubuntu 14.04</th>
+<th>Mac OS X &gt; 10.11</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>git</td>
+<td>Xcode Command Line Tools</td>
+</tr>
+<tr>
+<td></td>
+<td>git</td>
+</tr>
+</tbody>
+</table>
+<h1 id="clone-licode">Clone Licode</h1>
+<p>Let's start by cloning the Licode repository</p>
+<pre><code class="hljs vim">git clone http<span class="hljs-variable">s:</span>//github.<span class="hljs-keyword">com</span>/lynckia/licode.git
+<span class="hljs-keyword">cd</span> licode
+</code></pre>
+
+<p>The repository contains scripts for the rest of the steps of this guide.</p>
+<h1 id="install-dependencies">Install dependencies</h1>
+<p>This step installs the dependencies of all the Licode components. This is the only step that depends on your OS</p>
+<h4 id="ubuntu">Ubuntu</h4>
+<pre><code class="hljs stylus">./scripts/installUbuntuDeps<span class="hljs-class">.sh</span>
+</code></pre>
+
+<h4 id="mac-os-x">Mac OS X</h4>
+<pre><code class="hljs stylus">./scripts/installMacDeps<span class="hljs-class">.sh</span>
+</code></pre>
+
+<h1 id="install-licode">Install Licode</h1>
+<p>Here we will install all the Licode components in your computer.</p>
+<pre><code class="hljs stylus">./scripts/installNuve<span class="hljs-class">.sh</span>
+./scripts/installErizo<span class="hljs-class">.sh</span>
+</code></pre>
+
+<h1 id="install-basicexample">Install basicExample</h1>
+<p>The basicExample is a really simple node-based web application that relies on Licode to provide a videoconferencing room.</p>
+<pre><code class="hljs stylus">./scripts/installBasicExample<span class="hljs-class">.sh</span>
+</code></pre>
+
+<h1 id="start-licode">Start Licode!</h1>
+<p>At this points, you have successfully installed all the Licode components in your computer and also a simple application that will let you try it.
+Let's use the convenience script to start all Licode components:</p>
+<pre><code class="hljs stylus">./scripts/initLicode<span class="hljs-class">.sh</span>
+</code></pre>
+
+<p>After that, we just have to start our node application, we also have a script for that:</p>
+<pre><code class="hljs stylus">./scripts/initBasicExample<span class="hljs-class">.sh</span>
+</code></pre>
+
+<p><strong> Now you can connect to <em>http://localhost:3001</em> with Chrome or Firefox and test your basic videoconference example! </strong></p>
+<h1 id="whats-next">What's next?</h1>
+<p>Well you now have a taste of what Licode can do. You can start by modifying basicExample. You can find the code in <code>licode/extras/basic_example</code>:
+* <code>basicServer.js</code> is the node.js server that manages the communication between the clients and Nuve. Here you can add your own methods using the server side API (NuveAPI)</p>
+<p>Head to <a href="https://licode.readthedocs.io/en/stable/">Licode Architecture</a> for more information about different Licode components, or start developing your custom service getting into the client or server APIs.</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr><div><div id="rtd-lr3hyk92" class="ethical-rtd"><div class="ethical-footer"><div class="ethical-content"><a href="https://readthedocs.org/sustainability/click/297/hvVVH69w1d42/" rel="nofollow" target="_blank" class="ethical-image-link"><img src="./From Source - Documentation_files/saved_resource"></a><div class="ethical-text">A complete cloud platform designed for developers.<br><a href="https://readthedocs.org/sustainability/click/297/hvVVH69w1d42/" rel="nofollow" target="_blank">Try it free - $100 credit</a></div></div><div class="ethical-callout"><small><em><a href="https://readthedocs.org/sustainability/advertising/">Sponsored</a><span> · </span><a href="https://docs.readthedocs.io/en/latest/ethical-advertising.html">Ads served ethically</a></em></small></div></div></div><hr></div>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script type="text/javascript" async="" src="./From Source - Documentation_files/ga.js"></script><script src="./From Source - Documentation_files/jquery-1.10.2.min.js"></script>
+        <script src="./From Source - Documentation_files/bootstrap-3.0.3.min.js"></script>
+        <script src="./From Source - Documentation_files/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="./From Source - Documentation_files/require.js"></script>
+        <script src="./From Source - Documentation_files/base.js"></script>
+        <script src="./From Source - Documentation_files/script.js"></script>
+        <script src="./From Source - Documentation_files/readthedocs-data.js"></script>
+        <script src="./From Source - Documentation_files/readthedocs-dynamic-include.js"></script>
+        <script src="./From Source - Documentation_files/readthedocs-doc-embed.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+<div id="RTC-Share-Deskto-installed-ele-rat1abrr" style="display: none;"></div></body></html>
