@@ -14,6 +14,10 @@ function testConnection () {  // jshint ignore:line
   window.location = '/connection_test.html';
 }
 
+function MultiConnection () {  // jshint ignore:line
+  window.location = '/multiconnection_test.html';
+}
+
 function startRecording () {  // jshint ignore:line
   if (room !== undefined){
     if (!recording){
